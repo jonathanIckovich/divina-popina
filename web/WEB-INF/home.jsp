@@ -11,9 +11,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css" type="text/css" >
-    </head>
+        <link rel="stylesheet" type="text/css" href="<%= request.getRequestURI() %>/../../css/style.css"><!-- comment --></head>
     <body>
-        <h1>Hello World!</h1>
+       
+        <h1>is true?:</h1> 
     </body>
 </html>

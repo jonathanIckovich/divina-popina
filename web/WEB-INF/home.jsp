@@ -11,7 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <link rel="stylesheet" href="/web/WEB-INF/style/generalPage.css" type="text/css" >
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/web/WEB-INF/style/generalPage.css" type="text/css" >
     </head>
     <body>
         <h1>Hello World!</h1>
